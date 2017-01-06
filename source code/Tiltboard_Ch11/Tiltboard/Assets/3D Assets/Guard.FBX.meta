@@ -1,0 +1,1824 @@
+fileFormatVersion: 2
+guid: 9044475f3001ac44680590bf5380352a
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Club
+    100002: GameChar
+    100004: GameCharHead
+    100006: GameCharLAnkle
+    100008: GameCharLArmCollarbone
+    100010: GameCharLArmForeArm
+    100012: GameCharLArmIKTarget
+    100014: GameCharLArmIndex1
+    100016: GameCharLArmIndex2
+    100018: GameCharLArmIndex3
+    100020: GameCharLArmPalm
+    100022: GameCharLArmThumb1
+    100024: GameCharLArmThumb2
+    100026: GameCharLArmThumb3
+    100028: GameCharLArmUpperArm
+    100030: GameCharLCalf
+    100032: GameCharLPlatform
+    100034: GameCharLThigh
+    100036: GameCharLToe
+    100038: GameCharNeck
+    100040: GameCharPelvis
+    100042: GameCharRAnkle
+    100044: GameCharRCalf
+    100046: GameCharRCollarbone
+    100048: GameCharRForeArm
+    100050: GameCharRibcage
+    100052: GameCharRIKTarget
+    100054: GameCharRIndex1
+    100056: GameCharRIndex2
+    100058: GameCharRIndex3
+    100060: GameCharRPalm
+    100062: GameCharRPlatform
+    100064: GameCharRThigh
+    100066: GameCharRThumb1
+    100068: GameCharRThumb2
+    100070: GameCharRThumb3
+    100072: GameCharRToe
+    100074: GameCharRUpperArm
+    100076: GameCharSpine1
+    100078: GameCharSpine2
+    100080: //RootNode
+    100082: Guard
+    100084: Shield
+    400000: Club
+    400002: GameChar
+    400004: GameCharHead
+    400006: GameCharLAnkle
+    400008: GameCharLArmCollarbone
+    400010: GameCharLArmForeArm
+    400012: GameCharLArmIKTarget
+    400014: GameCharLArmIndex1
+    400016: GameCharLArmIndex2
+    400018: GameCharLArmIndex3
+    400020: GameCharLArmPalm
+    400022: GameCharLArmThumb1
+    400024: GameCharLArmThumb2
+    400026: GameCharLArmThumb3
+    400028: GameCharLArmUpperArm
+    400030: GameCharLCalf
+    400032: GameCharLPlatform
+    400034: GameCharLThigh
+    400036: GameCharLToe
+    400038: GameCharNeck
+    400040: GameCharPelvis
+    400042: GameCharRAnkle
+    400044: GameCharRCalf
+    400046: GameCharRCollarbone
+    400048: GameCharRForeArm
+    400050: GameCharRibcage
+    400052: GameCharRIKTarget
+    400054: GameCharRIndex1
+    400056: GameCharRIndex2
+    400058: GameCharRIndex3
+    400060: GameCharRPalm
+    400062: GameCharRPlatform
+    400064: GameCharRThigh
+    400066: GameCharRThumb1
+    400068: GameCharRThumb2
+    400070: GameCharRThumb3
+    400072: GameCharRToe
+    400074: GameCharRUpperArm
+    400076: GameCharSpine1
+    400078: GameCharSpine2
+    400080: //RootNode
+    400082: Guard
+    400084: Shield
+    2300000: Club
+    2300002: Shield
+    3300000: Club
+    3300002: Shield
+    4300000: Guard
+    4300002: Club
+    4300004: Shield
+    7400000: Guard Idle
+    7400002: Guard Walk
+    7400004: Guard Run
+    7400006: Guard Block
+    7400008: Guard Strafe
+    7400010: Guard WIP
+    7400012: Guard Narrow Idle
+    7400014: Guard Jump
+    7400016: Guard All
+    7400018: Guard Quick Block
+    9500000: //RootNode
+    13700000: Guard
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'GameCharRibcage' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'GameCharLArmForeArm'
+      has scale animation that will be discarded.\n\t'GameCharLArmPalm' has scale
+      animation that will be discarded.\n\t'GameCharLArmThumb1' has scale animation
+      that will be discarded.\n\t'GameCharLArmThumb2' has scale animation that will
+      be discarded.\n\t'GameCharLArmThumb3' has scale animation that will be discarded.\n\t'GameCharLArmIndex1'
+      has scale animation that will be discarded.\n\t'GameCharLArmIndex2' has scale
+      animation that will be discarded.\n\t'GameCharLArmIndex3' has scale animation
+      that will be discarded.\n\t'GameCharRPalm' has scale animation that will be
+      discarded.\n\t'GameCharRThumb1' has scale animation that will be discarded.\n\t'GameCharRThumb2'
+      has scale animation that will be discarded.\n\t'GameCharRThumb3' has scale animation
+      that will be discarded.\n\t'GameCharRIndex1' has scale animation that will be
+      discarded.\n\t'GameCharRIndex2' has scale animation that will be discarded.\n\t'GameCharRIndex3'
+      has scale animation that will be discarded.\n\t'GameCharLCalf' has scale animation
+      that will be discarded.\n\t'GameCharLAnkle' has scale animation that will be
+      discarded.\n\t'GameCharLToe' has scale animation that will be discarded.\n\t'GameCharRCalf'
+      has scale animation that will be discarded.\n\t'GameCharRAnkle' has scale animation
+      that will be discarded.\n\t'GameCharRToe' has scale animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Guard Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GameChar
+        weight: 0
+      - path: GameCharLArmIKTarget
+        weight: 0
+      - path: GameCharLPlatform
+        weight: 0
+      - path: GameCharPelvis
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle/GameCharLToe
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle/GameCharRToe
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/Club
+        weight: 0
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2/GameCharLArmIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2/GameCharLArmThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck/GameCharHead
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2/GameCharRIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2/GameCharRThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/Shield
+        weight: 1
+      - path: GameCharRIKTarget
+        weight: 0
+      - path: GameCharRPlatform
+        weight: 0
+      - path: Guard
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guard Walk
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GameChar
+        weight: 0
+      - path: GameCharLArmIKTarget
+        weight: 0
+      - path: GameCharLPlatform
+        weight: 0
+      - path: GameCharPelvis
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle/GameCharLToe
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle/GameCharRToe
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/Club
+        weight: 0
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2/GameCharLArmIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2/GameCharLArmThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck/GameCharHead
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2/GameCharRIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2/GameCharRThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/Shield
+        weight: 1
+      - path: GameCharRIKTarget
+        weight: 0
+      - path: GameCharRPlatform
+        weight: 0
+      - path: Guard
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guard Run
+      takeName: Take 001
+      firstFrame: 165
+      lastFrame: 185
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GameChar
+        weight: 0
+      - path: GameCharLArmIKTarget
+        weight: 0
+      - path: GameCharLPlatform
+        weight: 0
+      - path: GameCharPelvis
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle/GameCharLToe
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle/GameCharRToe
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/Club
+        weight: 0
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2/GameCharLArmIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2/GameCharLArmThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck/GameCharHead
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2/GameCharRIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2/GameCharRThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/Shield
+        weight: 1
+      - path: GameCharRIKTarget
+        weight: 0
+      - path: GameCharRPlatform
+        weight: 0
+      - path: Guard
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guard Block
+      takeName: Take 001
+      firstFrame: 210
+      lastFrame: 268
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GameChar
+        weight: 0
+      - path: GameCharLArmIKTarget
+        weight: 0
+      - path: GameCharLPlatform
+        weight: 0
+      - path: GameCharPelvis
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle/GameCharLToe
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle/GameCharRToe
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/Club
+        weight: 0
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2/GameCharLArmIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2/GameCharLArmThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck/GameCharHead
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2/GameCharRIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2/GameCharRThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/Shield
+        weight: 1
+      - path: GameCharRIKTarget
+        weight: 0
+      - path: GameCharRPlatform
+        weight: 0
+      - path: Guard
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guard Strafe
+      takeName: Take 001
+      firstFrame: 272
+      lastFrame: 312
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GameChar
+        weight: 0
+      - path: GameCharLArmIKTarget
+        weight: 0
+      - path: GameCharLPlatform
+        weight: 0
+      - path: GameCharPelvis
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle/GameCharLToe
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle/GameCharRToe
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/Club
+        weight: 0
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2/GameCharLArmIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2/GameCharLArmThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck/GameCharHead
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2/GameCharRIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2/GameCharRThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/Shield
+        weight: 1
+      - path: GameCharRIKTarget
+        weight: 0
+      - path: GameCharRPlatform
+        weight: 0
+      - path: Guard
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guard WIP
+      takeName: Take 001
+      firstFrame: 325
+      lastFrame: 345
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GameChar
+        weight: 0
+      - path: GameCharLArmIKTarget
+        weight: 0
+      - path: GameCharLPlatform
+        weight: 0
+      - path: GameCharPelvis
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle/GameCharLToe
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle/GameCharRToe
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/Club
+        weight: 0
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2/GameCharLArmIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2/GameCharLArmThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck/GameCharHead
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2/GameCharRIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2/GameCharRThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/Shield
+        weight: 1
+      - path: GameCharRIKTarget
+        weight: 0
+      - path: GameCharRPlatform
+        weight: 0
+      - path: Guard
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guard Narrow Idle
+      takeName: Take 001
+      firstFrame: 355
+      lastFrame: 395
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GameChar
+        weight: 0
+      - path: GameCharLArmIKTarget
+        weight: 0
+      - path: GameCharLPlatform
+        weight: 0
+      - path: GameCharPelvis
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle/GameCharLToe
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle/GameCharRToe
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/Club
+        weight: 0
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2/GameCharLArmIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2/GameCharLArmThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck/GameCharHead
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2/GameCharRIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2/GameCharRThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/Shield
+        weight: 1
+      - path: GameCharRIKTarget
+        weight: 0
+      - path: GameCharRPlatform
+        weight: 0
+      - path: Guard
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guard Jump
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 425
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GameChar
+        weight: 0
+      - path: GameCharLArmIKTarget
+        weight: 0
+      - path: GameCharLPlatform
+        weight: 0
+      - path: GameCharPelvis
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle/GameCharLToe
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle/GameCharRToe
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/Club
+        weight: 0
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2/GameCharLArmIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2/GameCharLArmThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck/GameCharHead
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2/GameCharRIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2/GameCharRThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/Shield
+        weight: 1
+      - path: GameCharRIKTarget
+        weight: 0
+      - path: GameCharRPlatform
+        weight: 0
+      - path: Guard
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guard All
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 430
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GameChar
+        weight: 0
+      - path: GameCharLArmIKTarget
+        weight: 0
+      - path: GameCharLPlatform
+        weight: 0
+      - path: GameCharPelvis
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle/GameCharLToe
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle/GameCharRToe
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/Club
+        weight: 0
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2/GameCharLArmIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2/GameCharLArmThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck/GameCharHead
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2/GameCharRIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2/GameCharRThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/Shield
+        weight: 1
+      - path: GameCharRIKTarget
+        weight: 0
+      - path: GameCharRPlatform
+        weight: 0
+      - path: Guard
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Guard Quick Block
+      takeName: Take 001
+      firstFrame: 218
+      lastFrame: 222
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GameChar
+        weight: 0
+      - path: GameCharLArmIKTarget
+        weight: 0
+      - path: GameCharLPlatform
+        weight: 0
+      - path: GameCharPelvis
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharLThigh/GameCharLCalf/GameCharLAnkle/GameCharLToe
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle
+        weight: 1
+      - path: GameCharPelvis/GameCharRThigh/GameCharRCalf/GameCharRAnkle/GameCharRToe
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/Club
+        weight: 0
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmIndex1/GameCharLArmIndex2/GameCharLArmIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharLArmCollarbone/GameCharLArmUpperArm/GameCharLArmForeArm/GameCharLArmPalm/GameCharLArmThumb1/GameCharLArmThumb2/GameCharLArmThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharNeck/GameCharHead
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRIndex1/GameCharRIndex2/GameCharRIndex3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/GameCharRThumb1/GameCharRThumb2/GameCharRThumb3
+        weight: 1
+      - path: GameCharPelvis/GameCharSpine1/GameCharSpine2/GameCharRibcage/GameCharRCollarbone/GameCharRUpperArm/GameCharRForeArm/GameCharRPalm/Shield
+        weight: 1
+      - path: GameCharRIKTarget
+        weight: 0
+      - path: GameCharRPlatform
+        weight: 0
+      - path: Guard
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.012
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: GameCharPelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLThigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRThigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLCalf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRCalf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLAnkle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRAnkle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharSpine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharSpine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharNeck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharHead
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLArmCollarbone
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRCollarbone
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLArmUpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRUpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLArmForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLArmPalm
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRPalm
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLToe
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRToe
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLArmThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLArmThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLArmThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLArmIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLArmIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharLArmIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GameCharRIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shield
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Guard(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameChar
+      parentName: 
+      position: {x: -0.002657959, y: 0, z: -0.008976563}
+      rotation: {x: 0.50000006, y: -0.5, z: -0.4999999, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharLArmIKTarget
+      parentName: 
+      position: {x: -0.62313503, y: 1.241007, z: 0.0016245118}
+      rotation: {x: -0.52498955, y: 0.82556164, z: -0.10738842, w: -0.17692319}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: GameCharLPlatform
+      parentName: 
+      position: {x: -0.32074144, y: 0.0000000055555667, z: 0.041330565}
+      rotation: {x: 0.517633, y: -0.51763284, z: -0.481722, w: 0.48172212}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: GameCharRIKTarget
+      parentName: 
+      position: {x: 0.6178191, y: 1.241007, z: 0.0016245118}
+      rotation: {x: -0.10738713, y: -0.17692477, z: -0.52498925, w: 0.8255616}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: GameCharRPlatform
+      parentName: 
+      position: {x: 0.31542554, y: 0.00000000555555, z: 0.041330565}
+      rotation: {x: 0.45969698, y: -0.45969686, z: -0.53728825, w: 0.5372884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Guard
+      parentName: 
+      position: {x: -0.006197754, y: 0, z: -0.007026856}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharPelvis
+      parentName: 
+      position: {x: -0.002657959, y: 1.070155, z: 0.007208496}
+      rotation: {x: 0.48168573, y: -0.5176668, z: -0.48168573, w: 0.5176667}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: GameCharLThigh
+      parentName: 
+      position: {x: -0.003055664, y: 0.021095222, z: 0.28237134}
+      rotation: {x: 0.012604666, y: 0.9962243, z: 0.08261001, w: 0.023536257}
+      scale: {x: 1.0000007, y: 0.99999803, z: 1.0000014}
+    - name: GameCharLCalf
+      parentName: 
+      position: {x: -0.45740247, y: 0, z: 0}
+      rotation: {x: 0.038456526, y: -0.013323984, z: 0.18662366, w: 0.9815881}
+      scale: {x: 0.9999946, y: 1.0000002, z: 1.0000049}
+    - name: GameCharLAnkle
+      parentName: 
+      position: {x: -0.3503978, y: 0.000000011444092, z: 0}
+      rotation: {x: 0.004656295, y: 0.027184138, z: -0.44187582, w: 0.8966522}
+      scale: {x: 0.9999973, y: 1.0000026, z: 1}
+    - name: GameCharLToe
+      parentName: 
+      position: {x: -0.36717317, y: 0.13329297, z: 0.025057295}
+      rotation: {x: -8.241567e-10, y: 0.0000000067212125, z: -0.56746185, w: 0.8233997}
+      scale: {x: 0.99999624, y: 1.0000037, z: 1}
+    - name: GameCharSpine1
+      parentName: 
+      position: {x: -0.1424328, y: 0.010269676, z: 1.7881394e-10}
+      rotation: {x: 9.201365e-10, y: 0.0000000041231796, z: 0.038569197, w: 0.99925596}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: GameCharSpine2
+      parentName: 
+      position: {x: -0.33260733, y: -0.000000011444092, z: 0}
+      rotation: {x: -0.000000001863927, y: -0.0000000021428936, z: -0.012585363, w: 0.99992085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GameCharRibcage
+      parentName: 
+      position: {x: -0.5008452, y: 0.000000011444092, z: 0}
+      rotation: {x: 4.445906e-10, y: 8.548795e-11, z: -0.061941948, w: 0.9980798}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: GameCharLArmCollarbone
+      parentName: 
+      position: {x: 0.11621026, y: 0.1854624, z: 0.049781244}
+      rotation: {x: 0.119418934, y: 0.68655914, z: 0.10140177, w: 0.7099954}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1}
+    - name: GameCharLArmUpperArm
+      parentName: 
+      position: {x: -0.39189848, y: 0, z: 0.00000018310547}
+      rotation: {x: -0.09635997, y: 0.037472315, z: -0.17172845, w: 0.97970396}
+      scale: {x: 0.9999988, y: 1, z: 1.0000013}
+    - name: GameCharLArmForeArm
+      parentName: 
+      position: {x: -0.7914981, y: -0.000000045776368, z: 0.00000018310547}
+      rotation: {x: 0.14368679, y: -0.002501782, z: -0.0024170529, w: 0.9896171}
+      scale: {x: 0.9999978, y: 1.0000026, z: 0.9999991}
+    - name: GameCharLArmPalm
+      parentName: 
+      position: {x: -0.40184712, y: -0.000000045776368, z: 0}
+      rotation: {x: -0.654683, y: 0.010860823, z: -0.065021284, w: 0.7530236}
+      scale: {x: 0.9999959, y: 0.9999999, z: 1.0000045}
+    - name: Club
+      parentName: 
+      position: {x: -0.21398015, y: -0.05847272, z: 0.14121473}
+      rotation: {x: 0.43763816, y: 0.5270818, z: 0.5373666, w: 0.49182793}
+      scale: {x: 1.0000002, y: 0.9999936, z: 1.0000069}
+    - name: GameCharLArmIndex1
+      parentName: 
+      position: {x: -0.15667154, y: 0.013218934, z: 0.009135499}
+      rotation: {x: -0.008246622, y: -0.052320465, z: 0.11730126, w: 0.9916829}
+      scale: {x: 0.999997, y: 0.99999756, z: 1.0000066}
+    - name: GameCharLArmIndex2
+      parentName: 
+      position: {x: -0.09068019, y: 0.00000018310547, z: 0.000000091552735}
+      rotation: {x: 0.061913803, y: -0.0005846538, z: 0.027646374, w: 0.99769837}
+      scale: {x: 0.9999967, y: 0.99999744, z: 1.0000068}
+    - name: GameCharLArmIndex3
+      parentName: 
+      position: {x: -0.078552425, y: 0.000000091552735, z: 0}
+      rotation: {x: -0.010395034, y: 0.0162624, z: 0.4415222, w: 0.8970427}
+      scale: {x: 0.9999947, y: 0.99999964, z: 1.0000067}
+    - name: GameCharLArmThumb1
+      parentName: 
+      position: {x: -0.05974672, y: 0.010143311, z: 0.10900433}
+      rotation: {x: 0.5101157, y: 0.27371728, z: -0.155253, w: 0.8004732}
+      scale: {x: 0.9999926, y: 1.0000036, z: 1.0000048}
+    - name: GameCharLArmThumb2
+      parentName: 
+      position: {x: -0.07307556, y: -0.000000091552735, z: 0}
+      rotation: {x: -0.040180374, y: 0.00869343, z: 0.027769309, w: 0.9987687}
+      scale: {x: 0.9999942, y: 1.0000105, z: 0.9999964}
+    - name: GameCharLArmThumb3
+      parentName: 
+      position: {x: -0.08886539, y: -0.000000091552735, z: 0}
+      rotation: {x: 0.1298658, y: 0.0061827605, z: 0.02391965, w: 0.99122375}
+      scale: {x: 0.9999983, y: 1.0000074, z: 0.9999951}
+    - name: GameCharNeck
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.0000000011846281, y: -0.000000017578804, z: -0.13591708, w: 0.9907202}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: GameCharHead
+      parentName: 
+      position: {x: -0.39437437, y: 0, z: 0}
+      rotation: {x: 0.0000000015687056, y: 0.00000001445621, z: 0.14878108, w: 0.9888702}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+    - name: GameCharRCollarbone
+      parentName: 
+      position: {x: 0.11621026, y: 0.1854624, z: -0.049781248}
+      rotation: {x: -0.11941909, y: -0.6865595, z: 0.1014016, w: 0.7099951}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1}
+    - name: GameCharRUpperArm
+      parentName: 
+      position: {x: -0.39189842, y: -0.000000005722046, z: 0.00000018310547}
+      rotation: {x: 0.09636041, y: -0.037471857, z: -0.1717283, w: 0.979704}
+      scale: {x: 1.0000006, y: 1.0000005, z: 0.9999986}
+    - name: GameCharRForeArm
+      parentName: 
+      position: {x: -0.7914981, y: -0.000000022888184, z: 0}
+      rotation: {x: -0.14368726, y: 0.0025014488, z: -0.0024177188, w: 0.9896171}
+      scale: {x: 1.0000015, y: 0.99999756, z: 1.000001}
+    - name: GameCharRPalm
+      parentName: 
+      position: {x: -0.4018471, y: -0.000000091552735, z: 0}
+      rotation: {x: 0.65468323, y: -0.010860992, z: -0.06502171, w: 0.7530234}
+      scale: {x: 1.0000038, y: 1.0000005, z: 0.9999954}
+    - name: Shield
+      parentName: 
+      position: {x: -0.2192614, y: -0.07687353, z: 0.005325897}
+      rotation: {x: -0.0390588, y: -0.0059911525, z: -0.057609096, w: 0.99755687}
+      scale: {x: 0.99999404, y: 0.9999999, z: 1.0000063}
+    - name: GameCharRIndex1
+      parentName: 
+      position: {x: -0.1609779, y: 0.014295776, z: -0.001115387}
+      rotation: {x: 0.008330264, y: 0.052180354, z: 0.11729535, w: 0.9916903}
+      scale: {x: 1.0000032, y: 1.0000026, z: 0.999994}
+    - name: GameCharRIndex2
+      parentName: 
+      position: {x: -0.09047484, y: 0.00000018310547, z: -0.000000091552735}
+      rotation: {x: -0.06176477, y: 0.00055373076, z: 0.027404176, w: 0.9977143}
+      scale: {x: 1.0000036, y: 1.0000027, z: 0.9999939}
+    - name: GameCharRIndex3
+      parentName: 
+      position: {x: -0.07643701, y: -0.000000091552735, z: -0.000000091552735}
+      rotation: {x: 0.010561737, y: -0.016010458, z: 0.44661978, w: 0.89451826}
+      scale: {x: 1.0000055, y: 1.0000007, z: 0.999994}
+    - name: GameCharRThumb1
+      parentName: 
+      position: {x: -0.048582043, y: 0.0018121948, z: -0.1092669}
+      rotation: {x: -0.49852782, y: -0.27550873, z: -0.14837119, w: 0.80842507}
+      scale: {x: 1.0000069, y: 0.99999714, z: 0.9999957}
+    - name: GameCharRThumb2
+      parentName: 
+      position: {x: -0.073963396, y: 0.000000091552735, z: 0}
+      rotation: {x: 0.041988, y: -0.008160394, z: 0.028364, w: 0.9986821}
+      scale: {x: 1.0000055, y: 0.9999904, z: 1.0000039}
+    - name: GameCharRThumb3
+      parentName: 
+      position: {x: -0.08886548, y: 0.000000045776368, z: 0}
+      rotation: {x: -0.12986524, y: -0.006065066, z: 0.024820605, w: 0.9912024}
+      scale: {x: 1.0000021, y: 0.99999297, z: 1.0000048}
+    - name: GameCharRThigh
+      parentName: 
+      position: {x: -0.0030555725, y: 0.021095209, z: -0.28237134}
+      rotation: {x: 0.011308981, y: 0.9962754, z: -0.083587095, w: -0.017904086}
+      scale: {x: 0.9999995, y: 1.0000021, z: 0.9999986}
+    - name: GameCharRCalf
+      parentName: 
+      position: {x: -0.45740256, y: 0, z: -0.000000022888184}
+      rotation: {x: -0.03847042, y: 0.013668171, z: 0.18913068, w: 0.9811029}
+      scale: {x: 1.0000167, y: 0.9999979, z: 0.9999856}
+    - name: GameCharRAnkle
+      parentName: 
+      position: {x: -0.35039783, y: -0.000000011444092, z: 0}
+      rotation: {x: 0.03535737, y: -0.01671333, z: -0.4420357, w: 0.8961445}
+      scale: {x: 1.0000108, y: 0.9999896, z: 0.99999994}
+    - name: GameCharRToe
+      parentName: 
+      position: {x: -0.36717317, y: 0.133293, z: -0.02505732}
+      rotation: {x: -0.000096984244, y: 0.00014072553, z: -0.567485, w: 0.8233838}
+      scale: {x: 1.0000147, y: 0.9999849, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

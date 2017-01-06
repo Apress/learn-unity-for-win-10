@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: a2e09e1d3bcad3045967913be3882a36
+timeCreated: 1472954308
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Barrel Lid
+    100002: Coconut
+    100004: Frond002
+    100006: Frond004
+    100008: Frond01
+    100010: Frond03
+    100012: //RootNode
+    100014: Palm Tree
+    100016: Sugar Sack
+    100018: WSooden Barrel
+    400000: Barrel Lid
+    400002: Coconut
+    400004: Frond002
+    400006: Frond004
+    400008: Frond01
+    400010: Frond03
+    400012: //RootNode
+    400014: Palm Tree
+    400016: Sugar Sack
+    400018: WSooden Barrel
+    2300000: Barrel Lid
+    2300002: Coconut
+    2300004: Frond002
+    2300006: Frond004
+    2300008: Frond01
+    2300010: Frond03
+    2300012: Palm Tree
+    2300014: Sugar Sack
+    2300016: WSooden Barrel
+    3300000: Barrel Lid
+    3300002: Coconut
+    3300004: Frond002
+    3300006: Frond004
+    3300008: Frond01
+    3300010: Frond03
+    3300012: Palm Tree
+    3300014: Sugar Sack
+    3300016: WSooden Barrel
+    4300000: Palm Tree
+    4300002: Frond002
+    4300004: Frond03
+    4300006: Frond01
+    4300008: Coconut
+    4300010: Frond004
+    4300012: WSooden Barrel
+    4300014: Barrel Lid
+    4300016: Sugar Sack
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

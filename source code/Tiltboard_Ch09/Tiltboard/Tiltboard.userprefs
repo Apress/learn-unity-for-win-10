@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Game Scripts\PathCellManager.cs">
+    <Files>
+      <File FileName="Assets\Game Scripts\PathCells.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Scripts\PathCellManager.cs" Line="186" Column="2" />
+      <File FileName="Assets\Game Scripts\WaypointManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Scripts\Traveler.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Scripts\Popper_Hopper.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Scripts\PortalHopper.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Scripts\HotSpotBooster.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Scripts\SimplePool.cs" Line="1" Column="1" />
+      <File FileName="Assets\Game Scripts\Booster.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

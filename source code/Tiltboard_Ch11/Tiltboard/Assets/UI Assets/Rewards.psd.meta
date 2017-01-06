@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: 16841e2730019604d899035858fc7573
+timeCreated: 1468793476
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WB_Active
+    21300002: Crusher_Active
+    21300004: Crusher_Hovered
+    21300006: Rewards_3
+    21300008: Rewards_5
+    21300010: Rewards_6
+    21300012: Rewards_7
+    21300014: Rewards_8
+    21300016: Rewards_9
+    21300018: Rewards_10
+    21300020: Rewards_11
+    21300022: Rewards_4
+    21300024: Rewards_12
+    21300026: WB_Hover
+    21300028: WB_Disabled
+    21300030: Crusher_Disabled
+    21300032: TipCoins
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WB_Active
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 284
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Crusher_Active
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 281
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Crusher_Hovered
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 196
+        width: 281
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rewards_3
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 382
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 57, y: 54, z: 53, w: 57}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rewards_5
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 256
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rewards_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rewards_7
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 383
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 58, y: 53, z: 54, w: 58}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rewards_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 255
+        width: 127
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 54, y: 52, z: 54, w: 55}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rewards_9
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 256
+        width: 127
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 58, y: 55, z: 54, w: 56}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rewards_10
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 56, y: 56, z: 56, w: 55}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rewards_11
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 127
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 54, y: 55, z: 54, w: 53}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rewards_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 385
+        width: 255
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Rewards_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 255
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WB_Hover
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 770
+        width: 284
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: WB_Disabled
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 772
+        width: 284
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Crusher_Disabled
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 514
+        width: 281
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: TipCoins
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 513
+        width: 301
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
